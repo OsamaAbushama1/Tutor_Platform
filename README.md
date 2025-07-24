@@ -32,6 +32,12 @@ Project Structure
 
 
 
+Contributing
+
+
+
+License
+
 Project Overview
 
 EduBridge aims to bridge the gap between students and educators by providing a user-friendly interface to browse, book, and manage educational sessions. It supports features like teacher profiles, booking management, notifications, and multilingual support (English and Arabic). The platform also includes an admin dashboard for managing teachers, bookings, and users.
@@ -121,3 +127,23 @@ Other Tools: [e.g., Redis for caching, WebSocket for notifications]
 Installation
 
 To set up the project locally, follow these steps:
+
+Prerequisites
+
+
+
+
+
+Node.js (if using a JavaScript-based backend/frontend)
+
+
+
+[Specify database, e.g., MongoDB, PostgreSQL]
+
+
+
+Git
+
+
+
+A package manager like npm or yarn
