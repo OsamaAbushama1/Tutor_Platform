@@ -1,0 +1,163 @@
+.footer-section {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 60px 0 20px;
+  box-shadow: 0 -15px 7px rgba(0, 0, 0, 0.3);
+}
+
+[dir="rtl"] .footer-section {
+  text-align: right;
+}
+
+.footer-logo {
+  height: 40px;
+}
+
+[dir="ltr"] .footer-logo {
+  margin-right: 5px;
+    margin-top: -3px;
+
+}
+[dir="rtl"] .twice{
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+[dir="rtl"] .footer-logo {
+  margin-left: 10px;
+}
+
+[dir="rtl"] .footer-brand-link {
+  flex-direction: row-reverse; 
+}
+
+[dir="ltr"] .footer-brand-link {
+  justify-content: flex-start; 
+}
+[dir="rtl"] .footer-brand-link {
+  justify-content: flex-end; 
+
+}
+
+.footer-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.footer-description {
+  color: #cccccc;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+.footer-heading {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.footer-links {
+  padding: 0;
+}
+
+[dir="rtl"] .footer-links {
+  text-align: right;
+}
+
+.footer-link {
+  color: #cccccc;
+  text-decoration: none;
+  font-size: 0.9rem;
+  display: block;
+  margin-bottom: 10px;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: white;
+}
+
+.footer-contact {
+  color: #cccccc;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+[dir="rtl"] .footer-contact {
+  text-align: right;
+}
+
+.footer-social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+
+
+.social-icon {
+  color: white;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #686363;
+}
+
+.footer-bottom {
+  border-top: 1px solid #404c5d;
+  padding-top: 20px;
+  margin-top: 40px;
+}
+
+[dir="rtl"] .footer-bottom {
+  text-align: right;
+}
+
+.footer-bottom p {
+  color: #cccccc;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .footer-section .col-md-4 {
+    text-align: center;
+  }
+
+  .footer-social-icons {
+    justify-content: center;
+  }
+
+  .footer-links {
+    text-align: center;
+  }
+
+  .footer-link {
+    margin-bottom: 15px;
+  }
+
+  [dir="rtl"] .footer-section .col-md-4,
+  [dir="rtl"] .footer-links,
+  [dir="rtl"] .footer-contact,
+  [dir="rtl"] .footer-bottom {
+    text-align: center;
+  }
+
+  [dir="rtl"] .footer-social-icons {
+    flex-direction: row;
+  }
+
+  [dir="rtl"] .footer-brand-link,
+  [dir="ltr"] .footer-brand-link {
+    flex-direction: row;
+    justify-content: center; 
+  }
+
+  [dir="rtl"] .footer-logo {
+    margin-left: 10px;
+  }
+}

@@ -1,0 +1,109 @@
+.booking-container {
+  padding: 40px 20px;
+  background:linear-gradient(135deg, #000000 50%, #464444 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.booking-card {
+  background: #2c2c2c;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.booking-card:hover {
+  transform: translateY(-5px);
+}
+
+.booking-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.booking-subtitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #27ae60;
+  margin-bottom: 20px;
+}
+
+.booking-details {
+  text-align: left;
+  margin-bottom: 30px;
+}
+[dir="rtl"] .booking-detail{
+  text-align: right;
+}
+
+.booking-detail {
+  font-size: 1.1rem;
+  color: white;
+  margin: 10px 0;
+}
+
+.booking-detail strong {
+  color: white;
+  font-weight: 600;
+}
+
+.booking-message {
+  font-size: 1rem;
+  color: #7f8c8d;
+  margin: 20px 0;
+}
+
+.btn-gradient-primary {
+  background: linear-gradient(90deg, #3498db, #2980b9);
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  text-decoration: none;
+}
+
+.btn-gradient-primary:hover {
+  background: linear-gradient(90deg, #2980b9, #2471a3);
+  transform: translateY(-2px);
+}
+
+.btn-gradient-success {
+  background: linear-gradient(90deg, #2ecc71, #27ae60);
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn-gradient-success:hover {
+  background: linear-gradient(90deg, #27ae60, #219653);
+  transform: translateY(-2px);
+}
+[dir="rtl"] .btn-gradient-success{
+  display: block;
+  text-align: right;
+}
+
+.booking-success {
+  background: #2c2c2c;
+  border: 2px solid #27ae60;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+}

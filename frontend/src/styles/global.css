@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.table {
+  margin-top: 20px;
+}
+
+.table thead th {
+  color: white;
+}
+
+.form-select {
+  width: 100%;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.mb-3 {
+  margin-bottom: 1rem;
+}

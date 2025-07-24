@@ -1,0 +1,133 @@
+:root {
+    --primary-color: #007bff;
+    --success-color: #28a745;
+    --danger-color: #dc3545;
+    --secondary-color: #6c757d;
+    --border-radius: 0.25rem;
+    --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  }
+  
+  .bookings-page {
+    direction: ltr;
+  }
+  
+  [dir="rtl"] .bookings-page {
+    direction: rtl;
+  }
+  
+  .bookings-card {
+    border: none;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    background-color: rgba(255, 255, 255, 0.1) !important;
+  }
+  .bookings-card:hover{
+    transform: none !important;
+  }
+  
+  .card-title {
+    font-size: 1.75rem !important;
+    font-weight: 500 !important;
+    color: white !important;
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .table {
+    background-color: #ffffff;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+  }
+  
+  .table thead th {
+    background-color: #4d4d4d !important;
+    color: white;
+    font-weight: 500;
+    border-bottom: 2px solid #dee2e6;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #f8f9fa;
+  }
+  
+  .table td, .table th {
+    padding: 1rem;
+    vertical-align: middle;
+  }
+  
+  .text-success {
+    color: var(--success-color) !important;
+  }
+  
+  .text-warning {
+    color: #ffc107 !important;
+  }
+  
+  .text-danger {
+    color: var(--danger-color) !important;
+  }
+  
+  .text-muted {
+    color: #6c757d !important;
+  }
+  
+  .alert {
+    border-radius: var(--border-radius);
+    margin-bottom: 1.5rem;
+  }
+  
+  .alert-danger {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+  }
+  
+  .spinner-border {
+    border-color: var(--success-color);
+    border-right-color: transparent;
+  }
+  
+  [dir="rtl"] .bookings-page {
+    text-align: right;
+  }
+  
+  [dir="rtl"] .card-title{
+    text-align: center !important;
+  }
+  [dir="rtl"] .alert {
+    text-align: right;
+  }
+  
+  [dir="rtl"] .table {
+    text-align: right;
+  }
+  
+  [dir="rtl"] .table th,
+  [dir="rtl"] .table td {
+    text-align: right;
+  }
+  
+  [dir="rtl"] .alert-dismissible .btn-close {
+    left: 10px;
+    right: auto;
+  }
+  
+  [dir="rtl"] .spinner-border {
+    margin-left: 8px;
+    margin-right: 0;
+  }
+  
+  @media (max-width: 767.98px) {
+    .card-title {
+      font-size: 1.5rem;
+    }
+  
+    .table {
+      font-size: 0.9rem;
+    }
+  
+    .table td, .table th {
+      padding: 0.75rem;
+    }
+  }
+  

@@ -1,0 +1,407 @@
+.teachers-page {
+    background: linear-gradient(135deg, #000000 50%, #464444 100%);
+    min-height: 100vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+  
+  .teachers-container {
+    padding-top: 2rem;
+    flex-grow: 1;
+  }
+  
+  .teachers-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+  
+  .teachers-lead {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  .teachers-form-select {
+    border-radius: 5px;
+    padding: 0.5rem;
+    background-color: #302c33 !important;
+    border: none !important;
+    outline: none;
+    color: white !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5),
+                0 2px 4px rgba(70, 68, 68, 0.3) !important;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>") !important;
+    background-repeat: no-repeat;
+    background-position: right 0.5rem center;
+    background-size: 1.5em !important;
+  }
+  
+  .teachers-slider .slick-slide {
+    padding: 0 10px;
+    transition: filter 0.3s ease;
+  }
+  
+  .teachers-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    height: 300px; 
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .teachers-card-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+  }
+    
+  .top-rated-badge {
+    position: absolute;
+    top: 10px;
+    right: 5px; 
+    background-color: #ffd700; 
+    color: #000;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .teachers-card-body {
+    padding: 0;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+  }
+  
+  .teachers-exclamation {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0 auto 15px;
+    cursor: pointer;
+    z-index: 2;
+  }
+  
+  .teachers-card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    margin: 0;
+  }
+  
+  .teachers-card-info {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    padding: 1rem;
+    position: absolute;
+    bottom: -200px;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+    z-index: 2;
+  }
+  
+  .teachers-card-info.active {
+    bottom: 190px;
+    opacity: 1;
+    transform: translateY(0);
+    height: 277px;
+  }
+  
+  .teachers-card-info.student-view.active {
+    height: 230px;
+  }
+  
+  .teachers-card-info p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+  }
+  
+  .teachers-btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+
+  
+  .teachers-btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .teachers-slider .slick-dots li button:before {
+    color: #fff;
+  }
+  p.text{
+    color: rgb(91 95 100 / 75%) !important;
+  }
+
+  @media (min-width: 576px) {
+      .slick-next{
+        right: -35px !important;
+      }
+      .slick-prev{
+        left: -35px !important;
+      }
+  }
+  
+  .teachers-slider .slick-prev,
+  .teachers-slider .slick-next {
+    z-index: 2;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .teachers-slider .slick-prev:before,
+  .teachers-slider .slick-next:before {
+    font-size: 30px;
+    color: #fff;
+  }
+
+  @media (min-width: 1200px) {
+    .teachers-card-info.active{
+      bottom: 190px; 
+    }
+  }
+@media (max-width: 576px) {
+  
+    .teachers-slider .slick-center {
+      filter: none; 
+      opacity: 1;
+    }
+  
+    .teachers-card {
+      height: 250px; 
+      width: 80%; 
+      margin: 0 auto; 
+    }
+  
+    .teachers-card-image {
+      width: 120px; 
+      height: 120px;
+      margin: 15px auto; 
+    }
+  
+    .teachers-card-title {
+      font-size: 1.2rem;
+    }
+  
+    .teachers-card-info {
+      height: 220px; 
+    }
+  
+    .teachers-card-info.active {
+      bottom: 148px; 
+    }
+    .slick-next {
+        right: 0px !important; 
+      }
+      
+      .slick-prev {
+        left: 0px !important;
+      }
+  }
+
+
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content.teacherlist {
+    background:  linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%) !important;
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 90%;
+    max-height: 70vh;
+    overflow-y: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .modal-content h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .modal-form-group {
+    margin-bottom: 15px;
+  }
+  
+  .modal-form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #555;
+  }
+  
+  .modal-form-group input[type="text"],
+  .modal-form-group input[type="number"],
+  .modal-form-group input[type="url"],
+  .modal-form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: unset;
+    color: black;
+  }
+  .modal-form-group input[type="file"]{
+    background-color: unset;
+    color: black;
+  }
+  
+  .modal-form-group input[type="checkbox"] {
+    margin-left: 10px;
+    margin-top: -5px;
+  }
+  
+  .modal-form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .modal-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.2s;
+  }
+  
+  .modal-btn-save {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .modal-btn-save:hover {
+    background-color: #218838;
+  }
+  
+  .modal-btn-close {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .modal-btn-close:hover {
+    background-color: #c82333;
+  }
+  
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .teachers-btn-add {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .teachers-btn-add:hover {
+    background-color: #218838;
+  }
+  
+  .teachers-btn-edit {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .teachers-btn-edit:hover {
+    background-color: #0069d9;
+  }
+  
+  .teachers-btn-delete {
+    background-color: #dc3545;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  [dir="rtl"] .teachers-btn-edit{
+    margin-left: 10px;
+  }
+  
+  .teachers-btn-delete:hover {
+    background-color: #c82333;
+  }
+  
+  .react-datepicker-wrapper {
+    width: 100%;
+  }
+  .react-datepicker__input-container input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: black !important;
+  }
+  .DateTimePlace{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+@media (max-width:450px) {
+  .DateTimePlace{
+    flex-direction: column;
+  }
+  .modal-form-group input[type="file"]{
+    width: 100%;
+  }
+}

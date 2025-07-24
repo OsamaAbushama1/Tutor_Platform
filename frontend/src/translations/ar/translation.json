@@ -1,0 +1,647 @@
+{
+  "header": {
+    "error_fetching_unread_count": "خطأ في جلب عدد الإشعارات غير المقروءة"
+  },
+  "home": "الرئيسية",
+  "tutors": "المعلمون",
+  "notification": "الإشعارات",
+  "welcome,": "مرحبًا،",
+  "bookinglist": "الحجوزات",
+  "Homesettings": "الإعدادات",
+  "logout": "تسجيل الخروج",
+  "HomeLogin": "تسجيل الدخول",
+  "HomeRegister": "إنشاء حساب",
+  "language": "اللغة",
+
+  "booking": {
+    "teacherNotFound": "لم يتم العثور على المعلم",
+    "title": "حجز جلسة مع",
+    "unknownTeacher": "معلم غير معروف",
+    "missingDetailsMessage": "يرجى اختيار تاريخ ووقت ومكان لمتابعة الحجز.",
+    "goBack": "العودة إلى ملف {{name}} الشخصي",
+    "goBackButton": "العودة",
+    "invalidTeacher": "تم اختيار معلم غير صالح",
+    "paymentError": "حدث خطأ أثناء معالجة الدفع",
+    "date": "التاريخ :",
+    "time": "الوقت :",
+    "place": "المكان :",
+    "price": "السعر :",
+    "currency": "جنيه مصري",
+    "na": "غير متوفر",
+    "payNow": "ادفع الآن لجلسة {{name}}",
+    "payNowButton": "ادفع الآن",
+    "processing": "جارٍ المعالجة...",
+    "paymentSuccess": "تم الدفع بنجاح",
+    "paymentSuccessMessage": "تم تأكيد حجزك! يمكنك الآن الذهاب إلى صفحة الحجوزات لعرض حصصك.",
+    "viewBookings": "عرض حجوزاتي"
+  },
+
+  "bookings": {
+    "authError": "يرجى تسجيل الدخول مرة أخرى.",
+    "fetchError": "يرجى المحاولة مرة أخرى لاحقًا.",
+    "unknownPlace": "مكان غير معروف",
+    "loading": "جارٍ التحميل...",
+    "title": "حجوزاتك",
+    "modifiedWarning": "تم تعديل بعض حجوزاتك من قبل المعلم. يرجى مراجعة التفاصيل.",
+    "cancelledWarning": "تم إلغاء بعض حجوزاتك من قبل المعلم. يرجى مراجعة التفاصيل.",
+    "closeAlert": "إغلاق التنبيه",
+    "noBookings": "ليس لديك حجوزات بعد.",
+    "teacher": "المعلم",
+    "subject": "المادة",
+    "date": "التاريخ",
+    "day": "اليوم",
+    "time": "الوقت",
+    "place": "المكان",
+    "statu": "الحالة",
+    "actions": "الإجراءات",
+    "unknownTeacher": "معلم غير معروف",
+    "cancelButton": "إلغاء",
+    "cancelledButton": "ملغى",
+    "pendingButton": "قيد الانتظار",
+    "confirmCancel": "تأكيد الإلغاء",
+    "confirmCancelMessage": "هل أنت متأكد من إلغاء هذا الحجز؟ هذا الإجراء لا يمكن التراجع عنه، وسوف تفقد حجزك.",
+    "processing": "جارٍ المعالجة...",
+    "cancelError": "فشل إلغاء الحجز. يرجى المحاولة مرة أخرى.",
+    "serverError": "حدث خطأ في الخادم. يرجى المحاولة مرة أخرى لاحقًا.",
+    "status": {
+      "confirmed": "مؤكد",
+      "modified": "معدل",
+      "cancelled": "ملغى",
+      "pending": "قيد الانتظار"
+    }
+  },
+
+  "hero": {
+    "failedToLoadTeachers": "يرجى المحاولة مرة أخرى لاحقًا.",
+    "title": "حقق أقصى استفادة مع أفضل الخبراء والمعلمين",
+    "description": "ابحث عن المعلم المثالي لتوجيه مسيرتك التعليمية.",
+    "findTutor": "ابحث عن معلم",
+    "joinNow": "انضم الآن",
+    "imageAlt": "رسم توضيحي للتعلم عبر الإنترنت",
+    "teachers": {
+      "title": "المعلمون المميزون",
+      "noTeachers": "لا يوجد معلمون متاحون في الوقت الحالي.",
+      "viewAll": "عرض جميع المعلمين",
+      "topRated": "الأعلى تقييمًا",
+      "rating": "التقييم"
+    },
+    "whyChoose": {
+      "title": "لماذا تختار منصتنا",
+      "verified": {
+        "title": "معلمون موثوقون",
+        "text": "جميع معلمينا تم فحصهم بعناية لضمان جودة تعليم عالية.",
+        "alt": "رسم توضيحي للمعلمين الموثوقين"
+      },
+      "coverage": {
+        "title": "تغطية واسعة",
+        "text": "الوصول إلى معلمين من مواد ومواقع مختلفة عبر مصر.",
+        "alt": "رسم توضيحي للتغطية الواسعة"
+      },
+      "personalized": {
+        "title": "تعليم مخصص",
+        "text": "احصل على دروس مصممة تناسب أسلوب تعلمك وأهدافك.",
+        "alt": "رسم توضيحي للتعلم المخصص"
+      }
+    }
+  },
+
+  "forgotPassword": {
+    "success": "إذا كان البريد الإلكتروني موجودًا، فقد تم إرسال رابط إعادة التعيين. راجع بريدك الإلكتروني.",
+    "error": "فشل إرسال رابط إعادة التعيين. يرجى التحقق من بريدك الإلكتروني والمحاولة مرة أخرى.",
+    "title": "نسيت كلمة المرور",
+    "form": {
+      "emailLabel": "البريد الإلكتروني",
+      "emailPlaceholder": "أدخل بريدك الإلكتروني",
+      "sending": "جارٍ الإرسال...",
+      "submit": "إرسال رابط إعادة التعيين"
+    },
+    "modal": {
+      "close": "إغلاق"
+    }
+  },
+
+  "login": {
+    "errors": {
+      "invalidCredentials": "البريد الإلكتروني أو كلمة المرور غير صحيحة."
+    },
+    "info": {
+      "title": "رحلتك التعليمية تبدأ هنا",
+      "description": "تواصل مع أفضل المعلمين في مصر، احجز دروسًا بسهولة، وقم بتقييم تجربتك لضمان جودة التعليم."
+    },
+    "form": {
+      "title": "تسجيل الدخول",
+      "email": "البريد الإلكتروني",
+      "password": "كلمة المرور",
+      "togglePasswordVisibility": "تبديل رؤية كلمة المرور",
+      "keepLoggedIn": "ابقني متصلاً",
+      "loggingIn": "جارٍ تسجيل الدخول...",
+      "login": "تسجيل الدخول",
+      "forgotPassword": "هل نسيت كلمة المرور؟",
+      "dontHaveAccount": "ليس لديك حساب؟",
+      "register": "سجل هنا"
+    }
+    
+  },
+  
+  "register": {
+    "errors": {
+    "onlyDigits": "رقم الهاتف يجب أن يحتوي على أرقام فقط.",
+    "invalidPhonePrefix": "بادئة الهاتف غير صالحة",
+    "phoneTooLong": "رقم الهاتف طويل جدًا",
+    "phoneTooShort": "رقم الهاتف يجب أن يكون 11 رقمًا بالضبط.",
+    "invalidEmail": "يرجى إدخال بريد إلكتروني صالح.",
+    "first_nameRequired": "الاسم الأول مطلوب.",
+    "last_nameRequired": "اسم العائلة مطلوب.",
+    "phoneInvalid": "رقم الهاتف يجب أن يكون 11 رقمًا ويحتوي على أرقام فقط.",
+    "generic": "يرجى المحاولة مرة أخرى.",
+    "emailInUse": "البريد الإلكتروني مستخدم بالفعل.",
+    "phoneInUse": "رقم الهاتف مستخدم بالفعل.",
+    "passwordMismatch": "كلمتا المرور غير متطابقتين!"
+  },
+  "success": {
+    "title": "نجاح!",
+    "message": "تم التسجيل بنجاح! جارٍ التوجيه إلى صفحة تسجيل الدخول...",
+    "passwordMatch": "كلمتا المرور متطابقتان!"
+    },
+  "info": {
+    "title": "انضم إلى مجتمعنا التعليمي",
+    "description": "سجل للوصول إلى شبكة من المعلمين المهرة من جميع أنحاء مصر. احجز دروسًا مصممة حسب أهدافك وقيم معلميك لمساعدتنا في تقديم أفضل تجربة تعليمية."
+  },
+  "form": {
+    "title": "إنشاء حساب جديد",
+    "firstName": "الاسم الأول",
+    "lastName": "اسم العائلة",
+    "email": "البريد الإلكتروني",
+    "phoneNumber": "رقم الهاتف",
+    "password": "كلمة المرور",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "createAccount": "إنشاء حساب",
+    "creatingAccount": "جارٍ إنشاء الحساب...",
+    "alreadyHaveAccount": "هل لديك حساب بالفعل؟",
+    "login": "تسجيل الدخول"
+  },
+  "passwordStrength": {
+    "length": "8+ أحرف",
+    "lowercase": "حروف صغيرة (a-z)",
+    "uppercase": "حروف كبيرة (A-Z)",
+    "number": "رقم (0-9)",
+    "specialChar": "رمز خاص (!@#)"
+  }
+},
+
+  "resetPassword": {
+    "title": "إعادة تعيين كلمة المرور",
+    "form": {
+      "newPasswordLabel": "كلمة المرور الجديدة",
+      "newPasswordPlaceholder": "أدخل كلمة المرور الجديدة",
+      "confirmPasswordLabel": "تأكيد كلمة المرور",
+      "confirmPasswordPlaceholder": "تأكيد كلمة المرور الجديدة",
+      "submit": "إعادة تعيين كلمة المرور",
+      "resetting": "جاري إعادة التعيين...",
+      "showPassword": "إظهار كلمة المرور",
+      "hidePassword": "إخفاء كلمة المرور"
+    },
+    "success": "تم إعادة تعيين كلمة المرور بنجاح",
+    "errors": {
+      "passwordsDoNotMatch": "كلمات المرور غير متطابقة",
+      "error": "يرجى المحاولة مرة أخرى",
+      "weakPassword": "كلمة المرور ضعيفة"
+    },
+    "passwordStrength": {
+      "length": "8 أحرف على الأقل",
+      "lowercase": "حرف صغير واحد",
+      "uppercase": "حرف كبير واحد",
+      "number": "رقم واحد",
+      "specialChar": "حرف خاص واحد"
+    }
+  },
+
+  "notifications": {
+    "title": "الإشعارات",
+    "loading": "جارٍ التحميل...",
+    "error_fetching": "خطأ في جلب الإشعارات",
+    "error_deleting": "خطأ في حذف الإشعار",
+    "no_notifications": "لا توجد إشعارات متاحة",
+    "posted_on": "نُشر في",
+    "delete": "حذف"
+  },
+
+  "ratingPopup": {
+    "rate": "قيّم",
+    "message": "يرجى تقديم تقييمك",
+    "note": "ملاحظة",
+    "ratingNote": "تقييمك سيساعد الطلاب الآخرين.",
+    "starAriaLabel": "اختر تقييم {star} نجمة",
+    "submitButton": "إرسال",
+    "submitButtonAriaLabel": "إرسال تقييم المعلم",
+    "closeButton": "إغلاق",
+    "closeButtonAriaLabel": "إغلاق نافذة التقييم"
+  },
+
+  "settings": {
+    "invalidImageType": "نوع الصورة غير صالح. يرجى رفع صورة بصيغة JPEG أو PNG أو GIF.",
+    "imageSizeError": "حجم الصورة يتجاوز الحد الأقصى 5 ميغابايت.",
+    "passwordMismatch": "كلمتا المرور غير متطابقتين.",
+    "noPasswordEntered": "يرجى إدخال كلمة مرور جديدة.",
+    "updatedSuccess": "تم تحديث الإعدادات بنجاح.",
+    "sameOldPassword": "هذه هي كلمة المرور القديمة. يرجى إدخال كلمة مرور جديدة.",
+    "unknownError": "حدث خطأ غير معروف.",
+    "updateError": "فشل تحديث الإعدادات: ",
+    "accountDeleted": "تم حذف حسابك.",
+    "deleteError": "فشل حذف الحساب.",
+    "title": "الإعدادات",
+    "tabs": {
+      "profile": "الملف الشخصي",
+      "security": "الأمان"
+    },
+    "profileInfo": "معلومات الملف الشخصي",
+    "uploadPicture": "رفع صورة الملف الشخصي",
+    "firstName": "الاسم الأول",
+    "lastName": "اسم العائلة",
+    "bio": "السيرة الذاتية",
+    "email": "البريد الإلكتروني",
+    "phoneNumber": "رقم الهاتف",
+    "memberSince": "عضو منذ",
+    "saving": "جارٍ الحفظ...",
+    "saveChanges": "حفظ التغييرات",
+    "cancel": "إلغاء",
+    "editProfile": "تعديل الملف الشخصي",
+    "changePassword": "تغيير كلمة المرور",
+    "newPassword": "كلمة المرور الجديدة",
+    "passwordPlaceholder": "أدخل كلمة المرور الجديدة",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "confirmPasswordPlaceholder": "تأكيد كلمة المرور الجديدة",
+    "passwordCriteria": {
+      "length": "على الأقل 8 أحرف",
+      "uppercase": "على الأقل حرف كبير واحد",
+      "lowercase": "على الأقل حرف صغير واحد",
+      "number": "على الأقل رقم واحد",
+      "special": "على الأقل رمز خاص واحد (!@#$%^&*)"
+    },
+    "passwordRequirementsNotMet": "كلمة المرور ضعيفة.",
+    "save": "حفظ",
+    "dangerZone": "منطقة الخطر",
+    "deleteWarning": "هذا الإجراء لا يمكن التراجع عنه. سيؤدي إلى حذف حسابك نهائيًا.",
+    "deleteAccount": "حذف الحساب",
+    "deleteConfirmTitle": "تأكيد حذف الحساب",
+    "deleteConfirmMessage": "هل أنت متأكد من رغبتك في حذف حسابك؟ هذا الإجراء لا يمكن التراجع عنه.",
+    "deleting": "جارٍ الحذف...",
+    "cropImage": "قص الصورة",
+    "cropAndSave": "قص وحفظ"
+  },
+
+  "teacherDetails": {
+    "loading": "جارٍ التحميل...",
+    "na": "غير متوفر",
+    "topRatedBadge": "الأعلى تقييمًا",
+    "teacherImageAlt": "صورة الملف الشخصي لـ {{name}}",
+    "subtitle": "معلم خبير",
+    "noAvailableDates": "لا توجد مواعيد متاحة للحجز.",
+    "subject": "المادة",
+    "governorate": "المحافظة",
+    "grades": "الصفوف",
+    "noGrades": "لا توجد صفوف متاحة",
+    "rating": "التقييم",
+    "price": "السعر",
+    "currency": "جنيه مصري",
+    "maxStudents": "الحد الأقصى للطلاب في المجموعة",
+    "date": "التاريخ",
+    "selectDateOption": "اختر تاريخًا",
+    "selectDate": "اختر التاريخ",
+    "time": "الوقت",
+    "selectTime": "اختر وقتًا",
+    "selectTimeOption": "يرجى اختيار وقت",
+    "noAvailableTimes": "لا توجد أوقات متاحة",
+    "place": "المكان",
+    "slotFull": "هذا الموعد ممتلئ. الحجز سيضعك في قائمة الانتظار.",
+    "booked": "محجوز",
+    "fetchTeacherError": "فشل في تحميل تفاصيل المعلم.",
+    "fetchBookingsError": "فشل في تحميل حالة الحجوزات.",
+    "watchVideo": "مشاهدة الفيديو الترويجي لـ {{name}}",
+    "watchVideoButton": "مشاهدة الفيديو الترويجي",
+    "bookNow": "احجز الآن مع {{name}}",
+    "bookNowButton": "احجز الآن",
+    "joinWaitingList": "الانضمام إلى قائمة الانتظار"
+  },
+
+  "teachersList": {
+    "deleteConfirm": "هل أنت متأكد من أنك تريد حذف هذا المعلم؟",
+    "teacherImageAlt": "صورة الملف الشخصي لـ {name}",
+    "topRatedBadge": "الأعلى تقييمًا",
+    "toggleInfo": "تبديل معلومات المعلم",
+    "subject": "المادة",
+    "governorate": "المحافظة",
+    "grades": "الصفوف",
+    "noGrades": "لم يتم تعيين صفوف",
+    "rating": "التقييم",
+    "pricePerSession": "السعر لكل جلسة",
+    "currency": "جنيه مصري",
+    "priceNotAvailable": "السعر غير متوفر",
+    "viewDetails": "عرض تفاصيل {name}",
+    "viewDetailsButton": "عرض التفاصيل",
+    "editTeacher": "تعديل المعلم {name}",
+    "editButton": "تعديل",
+    "deleteTeacher": "حذف المعلم {name}",
+    "deleteButton": "حذف",
+    "title": "معلمونا",
+    "lead": "استكشف معلمينا المتميزين وابحث عن الأنسب لاحتياجاتك التعليمية.",
+    "addTeacher": "إضافة معلم جديد",
+    "addTeacherButton": "إضافة معلم",
+    "selectSubject": "اختر مادة",
+    "selectSubjectOption": "جميع المواد",
+    "selectGovernorate": "اختر محافظة",
+    "selectGovernorateOption": "جميع المحافظات",
+    "selectGrade": "اختر صفًا",
+    "selectGradeOption": "جميع الصفوف",
+    "sliderLabel": "شريط قائمة المعلمين",
+    "noTeachersFound": "لم يتم العثور على معلمين مطابقين لمعاييرك.",
+    "editTeacherTitle": "تعديل المعلم",
+    "addTeacherTitle": "إضافة معلم",
+    "cancelSuccess": "تم إلغاء الحصة وإرسال الإشعارات بنجاح.",
+    "defaultCancelMessage": "تم إلغاء الحصة بسبب عدم توفر المعلم. يرجى حجز جلسة جديدة.",
+    "lessonMarkedForCancellation": "تم وضع علامة على الحصة للإلغاء.",
+    "noBookingsToCancel": "لم يتم العثور على حجوزات لهذا الموعد.",
+    "saveSuccessWithNotifications": "تم حفظ التغييرات. تم إلغاء {cancelCount} حجز(حجوزات).",
+    "noActiveTeachersFound":"لم يتم العثور على معلمين نشطين.",
+    "selectStatus":"اختر الحالة",
+    "selectStatusOption":"كل الحالات",
+    "filterActive":"نشط",
+    "filterSuspended":"معلق",
+    "form": {
+      "name": "الاسم",
+      "namePlaceholder":"ادخل اسم المعلم",
+      "subject": "المادة",
+      "selectSubject": "اختر المادة",
+      "governorate": "المحافظة",
+      "selectGovernorate": "اختر المحافظة",
+      "grades": "الصفوف",
+      "gradesHelp": "اختر جميع الصفوف المناسبة",
+      "pricePerSession": "السعر لكل جلسة",
+      "maxStudentsPerGroup": "الحد الأقصى لعدد الطلاب في المجموعة",
+      "promotionalVideos": "رابط الفيديو الترويجي",
+      "promotionalVideosPlaceholder": "أدخل رابط الفيديو الترويجي",
+      "promotionalVideosHelp": "قم بإدخال رابط صالح للفيديو الترويجي",
+      "image": "صورة الملف الشخصي",
+      "currentImage": "الصورة الحالية:",
+      "viewImage": "عرض الصورة",
+      "imageHelp": "ارفع صورة جديدة إذا كنت تريد تحديث الصورة الحالية.",
+      "schedule": "الجدول",
+      "selectDate": "اختر تاريخا",
+      "selectTime": "اختر وقتًا",
+      "selectTimeOption": "اختر وقتًا",
+      "placePlaceholder": "أدخل المكان",
+      "removeSchedule": "إزالة إدخال الجدول",
+      "removeButton": "إزالة",
+      "addSchedule": "إضافة إدخال جدول",
+      "addScheduleButton": "إضافة جدول",
+      "topRated": "الأعلى تقييمًا",
+      "close": "إغلاق النموذج",
+      "closeButton": "إغلاق",
+      "save": "حفظ معلومات المعلم",
+      "saveButton": "حفظ",
+      "cancelLesson": "إلغاء الحصة",
+      "cancelLessonButton": "إلغاء الحصة",
+      "cancelMessage": "رسالة الإلغاء",
+      "cancelMessagePlaceholder": "أدخل رسالة للطلاب حول الإلغاء",
+      "sendCancelNotification": "إرسال إشعار الإلغاء",
+      "sendCancelNotificationButton": "إرسال الإشعار",
+      "cancelButton": "إلغاء"
+    },
+    "days": {
+      "sunday": "الأحد",
+      "monday": "الإثنين",
+      "tuesday": "الثلاثاء",
+      "wednesday": "الأربعاء",
+      "thursday": "الخميس",
+      "friday": "الجمعة",
+      "saturday": "السبت"
+    },
+    "errors": {
+      "teacherExists": "يوجد معلم بهذا الاسم بالفعل.",
+      "saveError": "فشل حفظ معلومات المعلم.",
+      "checkScheduleError": "فشل التحقق من الحجوزات المتأثرة.",
+      "noAvailableSlot": "لا يوجد موعد متاح في الجدول الجديد.",
+      "notificationError": "فشل إرسال الإشعارات.",
+      "cancelError": "فشل إلغاء الحصة. حاول مرة أخرى."
+    },
+    "affectedBookingsTitle": "الحجوزات المتأثرة",
+    "affectedBookingsDescription": "الحجوزات التالية ستتأثر بتغيير الجدول وستُعاد جدولتها:",
+    "bookingInfo": "الحجز لـ {student} يوم {day} في {time} ({place}) سيُعاد جدولته إلى {newDay} في {newTime} ({newPlace})",
+    "notificationMessage": "رسالة الإشعار",
+    "notificationPlaceholder": "أدخل رسالة لإخطار الطلاب بتغيير الجدول",
+    "sendNotifications": "إرسال إشعارات للطلاب المتأثرين",
+    "sendNotificationsButton": "إرسال الإشعارات"
+  },
+
+  "subjects": {
+    "Math": "الرياضيات",
+    "Science": "العلوم",
+    "English": "الإنجليزية",
+    "Arabic": "العربية",
+    "Physics": "الفيزياء",
+    "Chemistry": "الكيمياء",
+    "History": "التاريخ",
+    "Geography": "الجغرافيا",
+    "Biology": "الأحياء",
+    "Philosophy": "الفلسفة",
+    "Psychology": "علم النفس",
+    "Economics": "الاقتصاد",
+    "Sociology": "علم الاجتماع",
+    "French": "الفرنسية",
+    "German": "الألمانية",
+    "Italian": "الإيطالية",
+    "Spanish": "الإسبانية",
+    "Religion": "الدين",
+    "Civics": "التربية الوطنية",
+    "Advanced Mathematics": "الرياضيات المتقدمة"
+  },
+  "governorates": {
+    "Cairo": "القاهرة",
+    "Alexandria": "الإسكندرية",
+    "Giza": "الجيزة",
+    "Luxor": "الأقصر",
+    "Aswan": "أسوان",
+    "Minya": "المنيا",
+    "Sohag": "سوهاج",
+    "Port Said": "بورسعيد",
+    "Ismailia": "الإسماعيلية",
+    "Suez": "السويس",
+    "Damanhur": "دمنهور",
+    "Tanta": "طنطا",
+    "Banha": "بنها",
+    "Shibin El-Kom": "شبين الكوم",
+    "Zagazig": "الزقازيق",
+    "Fayoum": "الفيوم",
+    "Beni Suef": "بني سويف",
+    "Qena": "قنا",
+    "Asyut": "أسيوط",
+    "Damietta": "دمياط",
+    "Kafr El Sheikh": "كفر الشيخ",
+    "Mansoura": "المنصورة",
+    "Monufia": "المنوفية",
+    "Helwan": "حلوان",
+    "Matrouh": "مطروح",
+    "North Sinai": "شمال سيناء",
+    "South Sinai": "جنوب سيناء",
+    "New Valley": "الوادي الجديد",
+    "Red Sea": "البحر الأحمر",
+    "Sharkia": "الشرقية",
+    "Gharbia": "الغربية",
+    "Beheira": "البحيرة"
+  },
+  "grades": {
+    "First": "الصف الأول الثانوي",
+    "Second": " الصف الثاني الثانوي",
+    "Third": "الصف الثالث الثانوي"
+  },
+
+  
+  "admin_dashboard": {
+    "title": "لوحة تحكم الإدارة"
+  },
+
+  
+
+  "footer": {
+    "logoAlt": "شعار إيدوبريدج",
+    "description": "إيدوبريدج يربط الطلاب بمعلمين خبراء لتعزيز التعلم وتحقيق النجاح الأكاديمي.",
+    "links": {
+      "title": "روابط سريعة",
+      "home": "الرئيسية",
+      "tutors": "المعلمون",
+      "profile": "الملف الشخصي",
+      "settings": "الإعدادات"
+    },
+    "contact": {
+      "title": "تواصل معنا",
+      "emailLabel": "البريد الإلكتروني",
+      "phoneLabel": "الهاتف"
+    },
+    "social": {
+      "facebook": "تابعنا على فيسبوك",
+      "twitter": "تابعنا على تويتر",
+      "instagram": "تابعنا على إنستغرام",
+      "linkedin": "تابعنا على لينكدإن"
+    },
+    "copyright": "جميع الحقوق محفوظة."
+  },
+
+  "adminDashboard": {
+    "dashboard": "لوحة التحكم",
+    "teachers": "المعلمون",
+    "bookings": "الحجوزات",
+    "users": "المستخدمون",
+    "logout": "تسجيل الخروج",
+    "loading": "جارٍ التحميل...",
+    "no_notifications": "لا توجد إشعارات متاحة.",
+    "delete": "حذف",
+    "user_avatar": "صورة المستخدم",
+    "language": "اللغة",
+    "english": "الإنجليزية",
+    "arabic": "العربية"
+  },
+
+  "teacherAdmin": {
+    "teachers_management": "إدارة المعلمين",
+    "search_placeholder": "البحث حسب الاسم أو المادة",
+    "all": "الكل",
+    "active": "نشط",
+    "suspended": "معلق",
+    "teachers": "المعلمون",
+    "name": "الاسم",
+    "subject": "المادة",
+    "rating": "التقييم",
+    "status": "الحالة",
+    "actions": "الإجراءات",
+    "delete": "حذف",
+    "failed_to_fetch_teachers": "فشل في جلب المعلمين.",
+    "failed_to_delete_teacher": "فشل في حذف المعلم.",
+    "failed_to_update_teacher": "فشل في تحديث المعلم.",
+    "confirm_delete": "هل أنت متأكد من أنك تريد حذف هذا المعلم؟",
+    "language": "اللغة",
+    "english": "الإنجليزية",
+    "arabic": "العربية"
+  },
+  "dashboard": {
+    "title": "لوحة تحكم الإدارة",
+    "platform_stats": "إحصائيات المنصة",
+    "total_teachers": "إجمالي المعلمين",
+    "total_users": "إجمالي المستخدمين",
+    "total_bookings": "إجمالي الحجوزات",
+    "pending_bookings": "الحجوزات المعلقة",
+    "total_notifications": "إجمالي الإشعارات", 
+    "recent_bookings": "الحجوزات الأخيرة",
+    "quick_actions": "إجراءات سريعة",
+    "manage_teachers": "إدارة المعلمين",
+    "manage_bookings": "إدارة الحجوزات",
+    "manage_users": "إدارة المستخدمين",
+    "user": "المستخدم",
+    "teacher": "المعلم",
+    "date": "التاريخ",
+    "time": "الوقت",
+    "status": "الحالة",
+    "error_fetching": "فشل في جلب بيانات لوحة التحكم."
+  },
+
+  "bookingPage": {
+    "bookings_management": "إدارة الحجوزات",
+    "search_placeholder": "البحث حسب المستخدم أو المعلم",
+    "all": "الكل",
+    "pending": "قيد الانتظار",
+    "confirmed": "مؤكد",
+    "completed": "مكتمل",
+    "cancelled": "ملغى",
+    "bookings": "الحجوزات",
+    "user": "المستخدم",
+    "teacher": "المعلم",
+    "date": "التاريخ",
+    "time": "الوقت",
+    "status": "الحالة",
+    "loading": "جارٍ التحميل...",
+    "failed_to_fetch_bookings": "فشل في جلب الحجوزات.",
+    "failed_to_update_booking_status": "فشل في تحديث حالة الحجز.",
+    "language": "اللغة",
+    "english": "الإنجليزية",
+    "arabic": "العربية",
+    "french": "الفرنسية"
+  },
+  "userpage": {
+    "title": "إدارة المستخدمين",
+    "search_placeholder": "البحث حسب الاسم أو البريد الإلكتروني",
+    "filter_all": "الكل",
+    "filter_user": "مستخدم",
+    "filter_admin": "مدير",
+    "users_list": "المستخدمون",
+    "table_name": "الاسم",
+    "table_email": "البريد الإلكتروني",
+    "table_role": "الدور",
+    "table_actions": "الإجراءات",
+    "default_name": "مدير",
+    "role_admin": "مدير",
+    "role_user": "مستخدم",
+    "delete_button": "حذف",
+    "confirm_delete": "هل أنت متأكد من حذف هذا المستخدم؟",
+    "error_fetch": "فشل في جلب المستخدمين.",
+    "error_delete": "فشل في حذف المستخدم."
+  },
+  
+    "notAdmin": {
+    "loading": "جارٍ التحميل...",
+    "title": "الإشعارات",
+    "send_message": "إرسال إشعار",
+    "cancel": "إلغاء",
+    "form_title": "إرسال إشعار",
+    "send_to_all": "إرسال إلى جميع المستخدمين",
+    "user_id": "معرف المستخدم",
+    "title_input": "العنوان",
+    "message": "الرسالة",
+    "send": "إرسال",
+    "error_sending": "فشل في إرسال الإشعار.",
+    "success_sending": "تم إرسال الإشعار بنجاح!",
+    "close": "إغلاق",
+    "back": "رجوع",
+    "no_notifications": "لا توجد إشعارات متاحة",
+    "delete": "حذف",
+    "error_fetching": "فشل في جلب الإشعارات."
+  }
+}

@@ -1,0 +1,338 @@
+.register-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #000000 50%, #464444 100%);
+  display: flex;
+  flex-direction: column;
+}
+
+[dir="rtl"] .register-page {
+  text-align: right;
+}
+
+.register-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.register-info-container {
+  flex: 1;
+  padding: 2rem;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+[dir="rtl"] .register-info-container {
+  text-align: right;
+}
+
+.info-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  animation: fadeIn 1s ease-in;
+}
+
+.info-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  opacity: 0.9;
+  animation: fadeIn 1.5s ease-in;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.register-form-container {
+  flex: 1;
+  padding: 2rem;
+  padding-bottom: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  max-width: 450px;
+}
+
+[dir="rtl"] .register-title {
+  text-align: right;
+}
+
+.register-title {
+  text-align: center;
+  color: white;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+@media (max-width: 550px) {
+  .register-title,
+  .info-title {
+    font-size: 2rem;
+  }
+  .info-text {
+    font-size: 1rem;
+  }
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 0;
+}
+
+.name-group {
+  display: flex;
+  gap: 1rem;
+}
+
+[dir="rtl"] .name-group {
+  flex-direction: row-reverse;
+}
+
+.name-field {
+  flex: 1 1 45%; 
+  order: 0;
+}
+
+[dir="rtl"] .name-group .name-field:nth-child(1) {
+  order: 2; 
+}
+
+[dir="rtl"] .name-group .name-field:nth-child(2) {
+  order: 1;
+}
+
+.form-control {
+  border-radius: unset !important;
+  border: none !important;
+  border-bottom: 1px solid #c2c2c2 !important;
+  font-size: 1rem !important;
+  transition: border-color 0.3s ease !important;
+  width: 100% !important;
+  background-color: unset !important;
+  color: white !important;
+}
+
+.form-control::placeholder {
+  color: white !important;
+}
+
+.form-control:focus {
+  border-color: #000;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+[dir="rtl"] .form-control{
+  text-align: right;
+}
+
+.password-toggle {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-70%);
+  cursor: pointer;
+  color: #666;
+}
+
+[dir="ltr"] .password-toggle {
+  right: 10px;
+}
+[dir="rtl"] .password-toggle {
+  left: 10px;
+  right: auto;
+}
+
+.password-strength {
+  display: flex;
+  flex-direction: column; 
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  gap: 0.3rem; 
+}
+
+[dir="rtl"] .password-strength {
+  text-align: right; 
+}
+
+.password-strength span {
+  text-align: left; 
+}
+
+[dir="rtl"] .password-strength span {
+  text-align: right;
+}
+
+.password-strength .valid {
+  color: green;
+}
+
+.password-strength .invalid {
+  color: black;
+}
+
+.error-text {
+  color: red;
+  font-size: 0.85rem;
+  margin-top: 0.3rem;
+  display: block;
+}
+
+[dir="rtl"] .error-text {
+  text-align: right;
+}
+
+.success-text {
+  color: green;
+  font-size: 0.85rem;
+  margin-top: 0.3rem;
+  display: block;
+}
+
+[dir="rtl"] .success-text {
+  text-align: right;
+}
+
+.register-button {
+  background: #000;
+  color: white;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.register-button:hover {
+  background: #333;
+  transform: translateY(-2px);
+}
+
+.register-button:disabled {
+  background: #666;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.loading-spinner {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #fff;
+  border-top-color: transparent;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+[dir="ltr"] .loading-spinner {
+  margin-right: 8px;
+}
+[dir="rtl"] .loading-spinner {
+  margin-left: 8px;
+  margin-right: 0;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.already-have-account {
+  text-align: center;
+  margin: 0px !important;
+  font-size: 0.9rem;
+  color: black;
+}
+
+
+
+.login-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .register-container {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .register-info-container {
+    text-align: center;
+    padding: 1rem;
+  }
+
+  [dir="rtl"] .register-info-container {
+    text-align: center;
+  }
+
+  .register-form-container {
+    max-width: 100%;
+    margin: 0 1rem;
+  }
+
+  .name-group {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  [dir="rtl"] .name-group {
+    flex-direction: column;
+  }
+
+  .password-strength {
+    flex-direction: column; 
+    gap: 0.3rem;
+  }
+
+  [dir="rtl"] .password-strength {
+    text-align: center; 
+  }
+
+  [dir="rtl"] .password-strength span {
+    text-align: center; 
+  }
+
+  [dir="rtl"] .register-title {
+    text-align: center;
+  }
+
+  [dir="rtl"] .already-have-account {
+    text-align: center;
+  }
+
+  [dir="rtl"] .error-text,
+  [dir="rtl"] .success-text {
+    text-align: center;
+  }
+}

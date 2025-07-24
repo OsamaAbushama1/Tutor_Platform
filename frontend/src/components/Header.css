@@ -1,0 +1,124 @@
+.btn-outline-primary {
+    background-color: unset !important;
+  }
+  
+  .btn-outline:hover {
+    background: linear-gradient(145deg, #060505, #686363) !important;
+  }
+  
+  .btn-outline {
+    width: 120px;
+    background: linear-gradient(145deg, #060505, #686363) !important;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    font-family: Consolas, "Courier New", monospace;
+    border: solid #404c5d 1px;
+    font-size: 16px;
+    color: white !important;
+    transition: all 500ms ease;
+    border-radius: 5px;
+  }
+  
+  .dropdown-menu {
+    background: linear-gradient(145deg, #060505, #686363) !important;
+    border: 1px solid #404c5d;
+    border-radius: 5px;
+    padding: 0;
+    left: -35px !important;
+  }
+  
+  .dropdown-item {
+    color: white !important;
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: background 0.3s ease;
+  }
+  
+  .dropdown-item:hover {
+    background: linear-gradient(145deg, #686363, #060505) !important;
+    color: #fff !important;
+  }
+  
+  .nav-link.dropdown-toggle {
+    background: none; 
+    border: none; 
+    color: white !important; 
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 16px; 
+    cursor: pointer; 
+  }
+  
+  .nav-link.dropdown-toggle:hover {
+    color: #cccccc !important; 
+  }
+  
+  .navbar {
+    background-color: #1a1a1a;
+  }
+  
+  .navbar-brand span,
+  .nav-link {
+    color: white !important;
+  }
+  
+  .nav-link:hover {
+    color: #cccccc !important;
+  }
+  
+  .navbar-logo {
+    height: 40px;
+    margin-right: 10px;
+  }
+a.nav-link.btn.btn-outline-primary.ms-2{
+  margin-left: 0 !important;
+  text-align: left;
+}
+[dir="rtl"] a.nav-link.btn.btn-outline-primary.ms-2{
+  text-align: right;
+}
+
+
+[dir="rtl"] .navbar-nav {
+  margin-right: auto !important;
+  margin-left: 0 !important;
+}
+
+[dir="rtl"] .navbar-brand {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .navbar-logo {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+[dir="rtl"] .dropdown-menu {
+  text-align: right;
+}
+
+.badge.bg-danger {
+  background-color: #007bff;
+}
+[dir="rtl"] .badge.bg-danger {
+  margin-right: 5px;
+}
+
+.dropdown-item .badge {
+  font-size: 0.75rem;
+  padding: 0.25em 0.5em;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-left: 0.5rem;
+}
+
+[dir="rtl"] .dropdown-item .badge {
+  margin-left: 0;
+  margin-right: 0.5rem;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,647 @@
+{
+  "header": {
+    "error_fetching_unread_count": "Error fetching unread notifications count"
+  },
+  "home": "Home",
+  "tutors": "Teachers",
+  "notification": "Notifications",
+  "welcome,": "Welcome,",
+  "bookinglist": "Bookings",
+  "Homesettings": "Settings",
+  "logout": "Logout",
+  "HomeLogin": "Login",
+  "HomeRegister": "Register",
+  "language": "Language",
+
+  "booking": {
+    "teacherNotFound": "Teacher not found",
+    "title": "Book a Session with",
+    "unknownTeacher": "Unknown Teacher",
+    "missingDetailsMessage":  "Please select a date, time, and place to proceed with the booking.",
+    "goBack": "Go back to {{name}}'s profile",
+    "goBackButton": "Go Back",
+    "invalidTeacher": "Invalid teacher selected",
+    "paymentError": "An error occurred while processing the payment",
+    "date": "Date :",
+    "time": "Time :",
+    "place": "Place :",
+    "price": "Price :",
+    "currency": "EGP",
+    "na": "N/A",
+    "payNow": "Pay now for {{name}}'s session",
+    "payNowButton": "Pay Now",
+    "processing": "Processing...",
+    "paymentSuccess": "Payment Successful",
+    "paymentSuccessMessage": "Your booking has been confirmed! You can now check the bookings page to view your sessions.",
+    "viewBookings": "View My Bookings"
+  },
+  "bookings": {
+    "authError": "Please log in again.",
+    "fetchError": "Please try again later.",
+    "unknownPlace": "Unknown Place",
+    "loading": "Loading...",
+    "title": "Your Bookings",
+    "modifiedWarning": "Some of your bookings have been modified by the teacher. Please review the details.",
+    "cancelledWarning": "Some of your bookings have been cancelled by the teacher. Please review the details.",
+    "closeAlert": "Close alert",
+    "noBookings": "You have no bookings yet.",
+    "teacher": "Teacher",
+    "subject": "Subject",
+    "date": "Date",
+    "day": "Day",
+    "time": "Time",
+    "place": "Place",
+    "statu": "Status",
+    "actions": "Actions",
+    "unknownTeacher": "Unknown Teacher",
+    "cancelButton": "Cancel",
+    "cancelledButton": "Cancelled",
+    "pendingButton": "Pending",
+    "confirmCancel": "Confirm Cancellation",
+    "confirmCancelMessage": "Are you sure you want to cancel this booking? This action cannot be undone, and you will lose your booking.",
+    "processing": "Processing...",
+    "cancelError": "Failed to cancel the booking. Please try again.",
+    "serverError": "A server error occurred. Please try again later.",
+    "status": {
+      "confirmed": "Confirmed",
+      "modified": "Modified",
+      "cancelled": "Cancelled",
+      "pending": "Pending"
+    }
+  },
+
+  "hero": {
+    "failedToLoadTeachers": "Please try again later.",
+    "title": "Get the Most Out of Your Learning with Top Teachers",
+    "description": "Find the perfect teacher to guide your educational path.",
+    "findTutor": "Find a Teacher",
+    "joinNow": "Join Now",
+    "imageAlt": "Online learning illustration",
+    "teachers": {
+      "topRated": "Top Rated",
+      "rating": "Rating",
+      "title": "Featured Teachers",
+      "noTeachers": "No Teachers available at the moment.",
+      "viewAll": "View All Teachers"
+    },
+    "whyChoose": {
+      "title": "Why Choose US?",
+      "verified": {
+        "alt": "Verified Teachers illustration",
+        "title": "Verified Teachers",
+        "text": "All our Teachers are thoroughly vetted to ensure high-quality education."
+      },
+      "coverage": {
+        "alt": "Wide coverage illustration",
+        "title": "Wide Coverage",
+        "text": "Access Teachers from various subjects and locations across Egypt."
+      },
+      "personalized": {
+        "alt": "Personalized learning illustration",
+        "title": "Personalized Learning",
+        "text": "Get tailored lessons that match your learning style and goals."
+      }
+    }
+  },
+
+  "forgotPassword": {
+    "success": "If the email exists, a reset link has been sent. Please check your email.",
+    "error": "Failed to send reset link. Please check your email and try again.",
+    "title": "Forgot Password",
+    "form": {
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "Enter your email",
+      "sending": "Sending...",
+      "submit": "Send Reset Link"
+    },
+    "modal": {
+      "close": "Close"
+    }
+  },
+
+  "login": {
+    "errors": {
+      "invalidCredentials": "Invalid email or password."
+    },
+    "info": {
+      "title": "Your Learning Journey Starts Here",
+      "description": "Connect with top teachers across Egypt, book lessons easily, and rate your experience to ensure quality education."
+    },
+    "form": {
+      "title": "Login",
+      "email": "Email",
+      "password": "Password",
+      "togglePasswordVisibility": "Toggle password visibility",
+      "keepLoggedIn": "Keep me logged in",
+      "loggingIn": "Logging in...",
+      "login": "Login",
+      "forgotPassword": "Forgot Password?",
+      "dontHaveAccount": "Don't have an account?",
+      "register": "Register here"
+    }
+   
+  },
+
+  "register": {
+    "errors": {
+      "onlyDigits": "Phone number must contain only digits.",
+      "invalidPhonePrefix": "Invalid phone prefix",
+      "phoneTooLong": "Phone number too long",
+      "phoneTooShort": "Phone number must be exactly 11 digits.",
+      "invalidEmail": "Please enter a valid email address.",
+      "first_nameRequired": "First name is required.",
+      "last_nameRequired": "Last name is required.",
+      "phoneInvalid": "Phone number must be 11 digits and contain only numbers.",
+      "generic": "Please try again.",
+      "emailInUse": "Email already in use.",
+      "phoneInUse": "Phone number already in use.",
+      "passwordMismatch": "Passwords do not match!"
+    },
+    "success": {
+      "title": "Success!",
+      "message": "Registration successful! Redirecting to login page...",
+      "passwordMatch": "Passwords match!"
+    },
+    "info": {
+      "title": "Join Our Learning Community",
+      "description": "Sign up to access a network of skilled teachers from across Egypt. Book lessons tailored to your goals and rate your instructors to help us deliver the best educational experience."
+    },
+    "form": {
+      "title": "Create a New Account",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phoneNumber": "Phone Number",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "createAccount": "Create Account",
+      "creatingAccount": "Creating Account...",
+      "alreadyHaveAccount": "Already have an account?",
+      "login": "Log in"
+    },
+    "passwordStrength": {
+      "length": "8+ characters",
+      "lowercase": "Lowercase (a-z)",
+      "uppercase": "Uppercase (A-Z)",
+      "number": "Number (0-9)",
+      "specialChar": "Special character (!@#)"
+    }
+  },
+
+  "resetPassword": {
+      "title": "Reset Password",
+      "form": {
+        "newPasswordLabel": "New Password",
+        "newPasswordPlaceholder": "Enter new password",
+        "confirmPasswordLabel": "Confirm Password",
+        "confirmPasswordPlaceholder": "Confirm new password",
+        "submit": "Reset Password",
+        "resetting": "Resetting...",
+        "showPassword": "Show password",
+        "hidePassword": "Hide password"
+      },
+      "success": "Password reset successfully",
+      "errors": {
+        "passwordsDoNotMatch": "Passwords do not match",
+        "error": "please try again",
+       "weakPassword": "Weak password"
+      },
+      "passwordStrength": {
+        "length": "At least 8 characters",
+        "lowercase": "One lowercase letter",
+        "uppercase": "One uppercase letter",
+        "number": "One number",
+        "specialChar": "One special character"
+      }
+    },
+
+  "notifications": {
+    "title": "Notifications",
+    "loading": "Loading...",
+    "error_fetching": "Error fetching notifications",
+    "error_deleting": "Error deleting notification",
+    "no_notifications": "No notifications available",
+    "posted_on": "Posted on",
+    "delete": "Delete"
+  },
+
+  "ratingPopup": {
+    "rate": "Rate",
+    "message": "Please provide your rating",
+    "note": "Note",
+    "ratingNote": "Your rating will help other students.",
+    "starAriaLabel": "Select {star} star rating",
+    "submitButton": "Submit",
+    "submitButtonAriaLabel": "Submit teacher rating",
+    "closeButton": "Close",
+    "closeButtonAriaLabel": "Close rating popup"
+  },
+
+  "settings": {
+    "invalidImageType": "Invalid image type. Please upload a JPEG, PNG, or GIF.",
+    "imageSizeError": "Image size exceeds 5MB limit.",
+    "passwordMismatch": "Passwords do not match.",
+    "noPasswordEntered": "Please enter a new password.",
+    "updatedSuccess": "Settings updated successfully.",
+    "sameOldPassword": "This is your old password. Please enter a new password.",
+    "unknownError": "An unknown error occurred.",
+    "updateError": "Failed to update settings: ",
+    "accountDeleted": "Your account has been deleted.",
+    "deleteError": "Failed to delete account.",
+    "title": "Settings",
+    "tabs": {
+      "profile": "Profile",
+      "security": "Security"
+    },
+    "profileInfo": "Profile Information",
+    "uploadPicture": "Upload Profile Picture",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "bio": "Bio",
+    "email": "Email",
+    "phoneNumber": "Phone Number",
+    "memberSince": "Member Since",
+    "saving": "Saving...",
+    "saveChanges": "Save Changes",
+    "cancel": "Cancel",
+    "editProfile": "Edit Profile",
+    "changePassword": "Change Password",
+    "newPassword": "New Password",
+    "passwordPlaceholder": "Enter new password",
+    "confirmPassword": "Confirm Password",
+    "confirmPasswordPlaceholder": "Confirm new password",
+    "passwordCriteria": {
+      "length": "At least 8 characters",
+      "uppercase": "At least one uppercase letter",
+      "lowercase": "At least one lowercase letter",
+      "number": "At least one number",
+      "special": "At least one special character (!@#$%^&*)"
+    },
+    "passwordRequirementsNotMet": "Weak Password.",
+    "save": "Save",
+    "dangerZone": "Danger Zone",
+    "deleteWarning": "This action cannot be undone. This will permanently delete your account.",
+    "deleteAccount": "Delete Account",
+    "deleteConfirmTitle": "Confirm Account Deletion",
+    "deleteConfirmMessage": "Are you sure you want to delete your account? This action cannot be undone.",
+    "deleting": "Deleting...",
+    "cropImage": "Crop Image",
+    "cropAndSave": "Crop and Save"
+  },
+
+ "teacherDetails": {
+    "loading": "Loading...",
+    "na": "N/A",
+    "topRatedBadge": "Top Rated",
+    "teacherImageAlt": "{{name}}'s Profile Picture",
+    "subtitle": "Expert Teacher",
+    "noAvailableDates": "No available dates for booking.",
+    "subject": "Subject",
+    "governorate": "Governorate",
+    "grades": "Grades",
+    "noGrades": "No grades available",
+    "rating": "Rating",
+    "price": "Price",
+    "currency": "EGP",
+    "maxStudents": "Max Students per Group",
+    "date": "Date",
+    "selectDateOption": "Select a date",
+    "selectDate": "Select date",
+    "time": "Time",
+    "selectTime": "Select a Time",
+    "selectTimeOption": "Please select a time",
+    "noAvailableTimes": "No available times",
+    "place": "Place",
+    "slotFull": "This slot is full. Booking will place you on the waiting list.",
+    "booked": "booked",
+    "fetchTeacherError": "Failed to load teacher details.",
+    "fetchBookingsError": "Failed to load booking status.",
+    "watchVideo": "Watch promo video for {{name}}",
+    "watchVideoButton": "Watch Promo Video",
+    "bookNow": "Book now with {{name}}",
+    "bookNowButton": "Book Now",
+    "joinWaitingList": "Join Waiting List"
+  },
+
+  "teachersList": {
+    "deleteConfirm": "Are you sure you want to delete this teacher?",
+    "teacherImageAlt": "Profile picture of {name}",
+    "topRatedBadge": "Top Rated",
+    "toggleInfo": "Toggle teacher information",
+    "subject": "Subject",
+    "governorate": "Governorate",
+    "grades": "Grades",
+    "noGrades": "No grades assigned",
+    "rating": "Rating",
+    "pricePerSession": "Price per Session",
+    "currency": "EGP",
+    "priceNotAvailable": "Price not available",
+    "viewDetails": "View details for {name}",
+    "viewDetailsButton": "View Details",
+    "editTeacher": "Edit teacher {name}",
+    "editButton": "Edit",
+    "deleteTeacher": "Delete teacher {name}",
+    "deleteButton": "Delete",
+    "title": "Our Teachers",
+    "lead": "Explore our expert teachers and find the perfect match for your learning needs.",
+    "addTeacher": "Add a new teacher",
+    "addTeacherButton": "Add Teacher",
+    "selectSubject": "Select a subject",
+    "selectSubjectOption": "All Subjects",
+    "selectGovernorate": "Select a governorate",
+    "selectGovernorateOption": "All Governorates",
+    "selectGrade": "Select a grade",
+    "selectGradeOption": "All Grades",
+    "sliderLabel": "Teachers list slider",
+    "noTeachersFound": "No teachers found matching your criteria.",
+    "editTeacherTitle": "Edit Teacher",
+    "addTeacherTitle": "Add Teacher",
+    "cancelSuccess": "Lesson canceled and notifications sent successfully.",
+    "defaultCancelMessage": "The lesson has been canceled due to teacher unavailability. Please book a new session.",
+    "lessonMarkedForCancellation": "Lesson marked for cancellation.",
+    "noBookingsToCancel": "No bookings found for this lesson slot.",
+    "saveSuccessWithNotifications": "Changes saved. {cancelCount} booking(s) canceled.",
+    "noActiveTeachersFound":"No active teachers found.",
+    "selectStatus":"Select Status",
+    "selectStatusOption":"All Statuses",
+    "filterActive":"Active",
+    "filterSuspended":"Suspended",
+    "form": {
+      "name": "Name",
+      "namePlaceholder":"Enter The Teacher's Name",
+      "subject": "Subject",
+      "selectSubject": "Select Subject",
+      "governorate": "Governorate",
+      "selectGovernorate": "Select Governorate",
+      "grades": "Grades",
+      "gradesHelp": "Select all applicable grades",
+      "pricePerSession": "Price per Session",
+      "maxStudentsPerGroup": "Maximum Students per Group",
+      "promotionalVideos": "Promotional Video URL",
+      "promotionalVideosPlaceholder": "Enter the URL of the promotional video",
+      "promotionalVideosHelp": "Provide a valid URL for the promotional video .",
+      "image": "Profile Image",
+      "currentImage": "Current Image:",
+      "viewImage": "View Image",
+      "imageHelp": "Upload a new image if you want to update the current one.",
+      "schedule": "Schedule",
+      "selectDate": "Select Date",
+      "selectTime": "Select Time",
+      "selectTimeOption": "Select a Time",
+      "placePlaceholder": "Enter place",
+      "removeSchedule": "Remove schedule entry",
+      "removeButton": "Remove",
+      "addSchedule": "Add schedule entry",
+      "addScheduleButton": "Add Schedule",
+      "topRated": "Top Rated",
+      "close": "Close the form",
+      "closeButton": "Close",
+      "save": "Save teacher information",
+      "saveButton": "Save",
+      "cancelLesson": "Cancel Lesson",
+      "cancelLessonButton": "Cancel Lesson",
+      "cancelMessage": "Cancellation Message",
+      "cancelMessagePlaceholder": "Enter a message for students about the cancellation",
+      "sendCancelNotification": "Send Cancellation Notification",
+      "sendCancelNotificationButton": "Send Notification",
+      "cancelButton": "Cancel"
+    },
+    "days": {
+      "sunday": "Sunday",
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday"
+    },
+    "errors": {
+      "teacherExists": "A teacher with this name already exists.",
+      "saveError": "Failed to save teacher information.",
+      "checkScheduleError": "Failed to check affected bookings.",
+      "noAvailableSlot": "No available slot in the new schedule.",
+      "notificationError": "Failed to send notifications.",
+      "cancelError": "Failed to cancel the lesson. Please try again."
+    },
+    "affectedBookingsTitle": "Affected Bookings",
+    "affectedBookingsDescription": "The following bookings will be affected by the schedule change and will be rescheduled:",
+    "bookingInfo": "Booking for {student} on {day} at {time} ({place}) will be rescheduled to {newDay} at {newTime} ({newPlace})",
+    "notificationMessage": "Notification Message",
+    "notificationPlaceholder": "Enter a message to notify students about the schedule change",
+    "sendNotifications": "Send notifications to affected students",
+    "sendNotificationsButton": "Send Notifications"
+  },
+
+  "subjects": {
+    "Math": "Mathematics",
+    "Science": "Science",
+    "English": "English",
+    "Arabic": "Arabic",
+    "Physics": "Physics",
+    "Chemistry": "Chemistry",
+    "History": "History",
+    "Geography": "Geography",
+    "Biology": "Biology",
+    "Philosophy": "Philosophy",
+    "Psychology": "Psychology",
+    "Economics": "Economics",
+    "Sociology": "Sociology",
+    "French": "French",
+    "German": "German",
+    "Italian": "Italian",
+    "Spanish": "Spanish",
+    "Religion": "Religion",
+    "Civics": "Civics",
+    "Advanced Mathematics": "Advanced Mathematics"
+  },
+  "governorates": {
+    "Cairo": "Cairo",
+    "Alexandria": "Alexandria",
+    "Giza": "Giza",
+    "Luxor": "Luxor",
+    "Aswan": "Aswan",
+    "Minya": "Minya",
+    "Sohag": "Sohag",
+    "Port Said": "Port Said",
+    "Ismailia": "Ismailia",
+    "Suez": "Suez",
+    "Damanhur": "Damanhur",
+    "Tanta": "Tanta",
+    "Banha": "Banha",
+    "Shibin El-Kom": "Shibin El-Kom",
+    "Zagazig": "Zagazig",
+    "Fayoum": "Fayoum",
+    "Beni Suef": "Beni Suef",
+    "Qena": "Qena",
+    "Asyut": "Asyut",
+    "Damietta": "Damietta",
+    "Kafr El Sheikh": "Kafr El Sheikh",
+    "Mansoura": "Mansoura",
+    "Monufia": "Monufia",
+    "Helwan": "Helwan",
+    "Matrouh": "Matrouh",
+    "North Sinai": "North Sinai",
+    "South Sinai": "South Sinai",
+    "New Valley": "New Valley",
+    "Red Sea": "Red Sea",
+    "Sharkia": "Sharkia",
+    "Gharbia": "Gharbia",
+    "Beheira": "Beheira"
+  },
+  "grades": {
+    "First": "First Grade",
+    "Second": "Second Grade",
+    "Third": "Third Grade"
+  },
+
+  
+  "admin_dashboard": {
+    "title": "Admin Dashboard"
+  },
+
+  
+  "footer": {
+    "logoAlt": "EduBridge Logo",
+    "description": "EduBridge connects students with expert Teachers to enhance learning and achieve academic success.",
+    "links": {
+      "title": "Quick Links",
+      "home": "Home",
+      "tutors": "Teachers",
+      "profile": "Profile",
+      "settings": "Settings"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone"
+    },
+    "social": {
+      "facebook": "Follow us on Facebook",
+      "twitter": "Follow us on Twitter",
+      "instagram": "Follow us on Instagram",
+      "linkedin": "Follow us on LinkedIn"
+    },
+    "copyright": "All rights reserved."
+  },
+
+  "adminDashboard": {
+    "dashboard": "Dashboard",
+    "teachers": "Teachers",
+    "bookings": "Bookings",
+    "users": "Users",
+    "logout": "Logout",
+    "loading": "Loading...",
+    "no_notifications": "No notifications available.",
+    "delete": "Delete",
+    "user_avatar": "User Avatar",
+    "language": "Language",
+    "english": "English",
+    "arabic": "Arabic"
+  },
+
+  "teacherAdmin": {
+    "teachers_management": "Teachers Management",
+    "search_placeholder": "Search by name or subject",
+    "all": "All",
+    "active": "Active",
+    "suspended": "Suspended",
+    "teachers": "Teachers",
+    "name": "Name",
+    "subject": "Subject",
+    "rating": "Rating",
+    "status": "Status",
+    "actions": "Actions",
+    "delete": "Delete",
+    "failed_to_fetch_teachers": "Failed to fetch teachers.",
+    "failed_to_delete_teacher": "Failed to delete teacher.",
+    "failed_to_update_teacher": "Failed to update teacher.",
+    "confirm_delete": "Are you sure you want to delete this teacher?",
+    "language": "Language",
+    "english": "English",
+    "arabic": "Arabic"
+  },
+
+  "dashboard": {
+    "title": "Admin Dashboard",
+    "platform_stats": "Platform Stats",
+    "total_teachers": "Total Teachers",
+    "total_users": "Total Users",
+    "total_bookings": "Total Bookings",
+    "pending_bookings": "Pending Bookings",
+    "total_notifications": "Total Notifications", 
+    "recent_bookings": "Recent Bookings",
+    "quick_actions": "Quick Actions",
+    "manage_teachers": "Manage Teachers",
+    "manage_bookings": "Manage Bookings",
+    "manage_users": "Manage Users",
+    "user": "User",
+    "teacher": "Teacher",
+    "date": "Date",
+    "time": "Time",
+    "status": "Status",
+    "error_fetching": "Failed to fetch dashboard data."
+  },
+  
+  "bookingPage": {
+    "bookings_management": "Bookings Management",
+    "search_placeholder": "Search by user or teacher",
+    "all": "All",
+    "pending": "Pending",
+    "confirmed": "Confirmed",
+    "completed": "Completed",
+    "cancelled": "Cancelled",
+    "bookings": "Bookings",
+    "user": "User",
+    "teacher": "Teacher",
+    "date": "Date",
+    "time": "Time",
+    "status": "Status",
+    "loading": "Loading...",
+    "failed_to_fetch_bookings": "Failed to fetch bookings.",
+    "failed_to_update_booking_status": "Failed to update booking status.",
+    "language": "Language",
+    "english": "English",
+    "arabic": "Arabic",
+    "french": "French"
+  },
+  "userpage": {
+    "title": "Users Management",
+    "search_placeholder": "Search by name or email",
+    "filter_all": "All",
+    "filter_user": "User",
+    "filter_admin": "Admin",
+    "users_list": "Users",
+    "table_name": "Name",
+    "table_email": "Email",
+    "table_role": "Role",
+    "table_actions": "Actions",
+    "default_name": "Boss",
+    "role_admin": "Admin",
+    "role_user": "User",
+    "delete_button": "Delete",
+    "confirm_delete": "Are you sure you want to delete this user?",
+    "error_fetch": "Failed to fetch users.",
+    "error_delete": "Failed to delete user."
+  },
+
+  "notAdmin": {
+    "loading": "Loading...",
+    "title": "Notifications",
+    "send_message": "Send Notification",
+    "cancel": "Cancel",
+    "form_title": "Send Notification",
+    "send_to_all": "Send to all users",
+    "user_id": "User ID",
+    "title_input": "Title",
+    "message": "Message",
+    "send": "Send",
+    "error_sending": "Failed to send notification.",
+    "success_sending": "Notification sent successfully!",
+    "close": "Close",
+    "back": "Back",
+    "no_notifications": "No notifications available",
+    "delete": "Delete",
+    "error_fetching": "Failed to fetch notifications."
+  }
+  
+}
