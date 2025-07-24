@@ -12,8 +12,6 @@ This repository contains both the **frontend** and **backend** codebases for the
   - [Backend Setup](#backend-setup)
 - [Project Structure](#project-structure)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 - **User Authentication**:
@@ -55,7 +53,7 @@ This repository contains both the **frontend** and **backend** codebases for the
 - **Database**: [SQLite](https://www.sqlite.org/) for development
 - **Authentication**: [JWT](https://jwt.io/) for secure user sessions
 - **API**: RESTful API for communication with the frontend
-- **File Storage**: Local storage or cloud-based (e.g., AWS S3) for profile images and videos
+- **File Storage**: Local storage 
 - **Notifications**: Email-based notifications using Django's email system
 
 ## Installation
@@ -73,9 +71,10 @@ This repository contains both the **frontend** and **backend** codebases for the
    cd edubridge/frontend
 
 
-Install dependencies:npm install
+Install dependencies:
+npm install
 
-oryarn install
+or yarn install
 
 
 Create a .env file in the frontend directory and add environment variables:REACT_APP_API_URL=http://localhost:8000/api
