@@ -13,7 +13,7 @@ EduBridge is a web platform designed to connect students with expert teachers ac
 - [License](#license)
 
 ## Project Overview
-EduBridge aims to bridge the gap between students and educators by providing a user-friendly interface to browse, book, and manage educational sessions. It supports features like teacher profiles, booking management, notifications, and multilingual support (English and Arabic). The platform also includes an admin dashboard for managing teachers, bookings, and users.
+EduBridge aims to bridge the gap between students and educators by providing a user-friendly interface to browse, book, and manage educational sessions. It supports features like teacher profiles, booking management, notifications, and multilingual support (**English** and **Arabic**). The platform also includes an admin dashboard for managing teachers, bookings, and users.
 
 ## Features
 - **User Authentication**: Login, registration, password reset, and profile management.
@@ -21,7 +21,7 @@ EduBridge aims to bridge the gap between students and educators by providing a u
 - **Booking System**: Schedule and manage lessons, including cancellations and waiting lists.
 - **Notifications**: Real-time notifications for booking updates and cancellations.
 - **Admin Dashboard**: Manage teachers, bookings, users, and platform statistics.
-- **Multilingual Support**: Interface available in English and Arabic, with translations for all UI elements.
+- **Multilingual Support**: Interface available in **English** and **Arabic**, with translations for all UI elements.
 - **Responsive Design**: Optimized for both desktop and mobile devices.
 - **Rating System**: Students can rate teachers to ensure quality.
 
@@ -29,7 +29,7 @@ EduBridge aims to bridge the gap between students and educators by providing a u
 ### Frontend
 - **Framework**: [Specify framework, e.g., React, Vue.js, or vanilla JavaScript]
 - **Styling**: [Specify, e.g., Tailwind CSS, Bootstrap, or custom CSS]
-- **Internationalization**: i18n for multilingual support (English and Arabic)
+- **Internationalization**: i18n for multilingual support (**English** and **Arabic**)
 - **Other Libraries**: [e.g., Axios for API calls, React Router for navigation]
 
 ### Backend
@@ -51,5 +51,11 @@ To set up the project locally, follow these steps:
 ### Steps
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/edubridge.git
+   git clone https://github.com/OsamaAbushama1/edubridge.git
    cd edubridge
+2. **Install Frontend Dependencies:
+   cd frontend
+   npm install
+3. **Install Backend Dependencies:
+   cd backend
+   npm install
