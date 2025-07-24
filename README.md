@@ -82,16 +82,18 @@ Create a .env file in the frontend directory and add environment variables:REACT
 REACT_APP_BASE_URL=http://localhost:3000
 
 
-Start the development server:npm start
+Start the development server:
+npm start
 
-oryarn start
+or yarn start
 
 
 Access the frontend at http://localhost:3000.
 
-Backend Setup
+### Backend Setup
 
-Navigate to the backend directory:cd edubridge/backend
+Navigate to the backend directory:
+cd edubridge/backend
 
 
 Create and activate a virtual environment:python -m venv venv
@@ -146,23 +148,4 @@ Admins can send notifications to users via the dashboard.
 
 
 
-Contributing
-Contributions are welcome! To contribute:
-
-Fork the repository.
-Create a new branch:git checkout -b feature/your-feature-name
-
-
-Make your changes and commit:git commit -m "Add your feature description"
-
-
-Push to your branch:git push origin feature/your-feature-name
-
-
-Open a pull request with a detailed description of your changes.
-
-Please ensure your code follows the project's coding standards and includes appropriate tests.
-License
-This project is licensed under the MIT License.
-
-For any issues or questions, please open an issue on GitHub or contact us at support@edubridge.com.```
+For any issues or questions, please open an issue on GitHub or contact us at osamaabushama1@gmail.com.```
